@@ -1,0 +1,1078 @@
+﻿[2015.08.01-23.10.50:531][  0]Log file open, 08/02/15 01:10:50
+[2015.08.01-23.10.50:531][  0]LogInit:Display: Running engine for game: game
+[2015.08.01-23.10.50:531][  0]LogInit:Display: RandInit(-617702075) SRandInit(-617702074).
+[2015.08.01-23.10.50:531][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.08.01-23.10.50:531][  0]LogStats: Stats thread started
+[2015.08.01-23.10.50:531][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.01-23.10.50:531][  0]LogInit: API Version: 2579680
+[2015.08.01-23.10.50:531][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.08.01-23.10.50:531][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.08.01-23.10.50:531][  0]LogInit: Build Configuration: Development
+[2015.08.01-23.10.50:531][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.08.01-23.10.50:531][  0]LogInit: Command line:  
+[2015.08.01-23.10.50:531][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.08.01-23.10.50:531][  0]LogInit: Rocket: 1
+[2015.08.01-23.10.50:547][  0]LogInit: Using libcurl 7.41.0
+[2015.08.01-23.10.50:547][  0]LogInit:  - built for x86_64-pc-win32
+[2015.08.01-23.10.50:547][  0]LogInit:  - supports SSL with WinSSL
+[2015.08.01-23.10.50:547][  0]LogInit:  - other features:
+[2015.08.01-23.10.50:547][  0]LogInit:      CURL_VERSION_SSL
+[2015.08.01-23.10.50:547][  0]LogInit:      CURL_VERSION_IPV6
+[2015.08.01-23.10.50:547][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.08.01-23.10.50:547][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.08.01-23.10.50:547][  0]LogInit:      CURL_VERSION_IDN
+[2015.08.01-23.10.50:547][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.08.01-23.10.50:547][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.08.01-23.10.50:547][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.08.01-23.10.50:547][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.08.01-23.10.50:547][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.08.01-23.10.50:562][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.08.01-23.10.50:581][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.08.01-23.10.50:592][  0]LogInit: Object subsystem initialized
+[2015.08.01-23.10.50:593][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.08.01-23.10.50:593][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Tokala/Documents/Unreal Projects/Game/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.01-23.10.50:593][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.08.01-23.10.50:593][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Tokala/Documents/Unreal Projects/Game/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.01-23.10.50:593][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.08.01-23.10.50:593][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Tokala/Documents/Unreal Projects/Game/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.01-23.10.50:594][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.01-23.10.50:594][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.08.01-23.10.50:602][  0]LogInit: Computer: TOKALA-OTHER-PC
+[2015.08.01-23.10.50:602][  0]LogInit: User: Tokala
+[2015.08.01-23.10.50:602][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.08.01-23.10.50:602][  0]LogInit: High frequency timer resolution =3.433857 MHz
+[2015.08.01-23.10.50:602][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2015.08.01-23.10.50:602][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.01-23.10.50:602][  0]LogMemory: Process Physical Memory: 49.89 MB used, 49.89 MB peak
+[2015.08.01-23.10.50:602][  0]LogMemory: Process Virtual Memory: 24.25 MB used, 24.25 MB peak
+[2015.08.01-23.10.50:602][  0]LogMemory: Physical Memory: 9406.66 MB used, 16366.65 MB total
+[2015.08.01-23.10.50:602][  0]LogMemory: Virtual Memory: 281.98 MB used, 8388608.00 MB total
+[2015.08.01-23.10.50:666][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.08.01-23.10.50:938][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.08.01-23.10.51:582][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R9 200 Series (Feature Level 11_0)
+[2015.08.01-23.10.51:582][  0]LogD3D11RHI: Adapter has 3054MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 2 output[s]
+[2015.08.01-23.10.51:583][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.08.01-23.10.51:594][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.10.51:594][  0]LogD3D11RHI: !Direct3DDevice
+[2015.08.01-23.10.51:594][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.08.01-23.10.51:601][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.08.01-23.10.51:614][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.08.01-23.10.52:690][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.08.01-23.10.52:713][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.08.01-23.10.52:732][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.08.01-23.10.52:752][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.08.01-23.10.52:776][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.08.01-23.10.52:795][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.08.01-23.10.52:814][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.08.01-23.10.52:834][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.08.01-23.10.52:851][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.08.01-23.10.52:871][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.08.01-23.10.52:889][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.08.01-23.10.52:910][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.08.01-23.10.52:979][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.08.01-23.10.52:997][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.08.01-23.10.53:015][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.08.01-23.10.53:043][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.08.01-23.10.53:043][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.01-23.10.53:381][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.08.01-23.10.53:480][  0]LogDerivedDataCache: Loaded boot cache 0.10s 53MB C:/Users/Tokala/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.01-23.10.53:480][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Tokala/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.08.01-23.10.53:481][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Tokala/Documents/Unreal Projects/Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.08.01-23.10.53:481][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.08.01-23.10.53:481][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Tokala/Documents/Unreal Projects/Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.08.01-23.10.53:481][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.08.01-23.10.53:696][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.08.01-23.10.53:707][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tokala/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.08.01-23.10.54:052][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.01-23.10.54:062][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.01-23.10.54:063][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.01-23.10.54:100][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.08.01-23.10.54:100][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.08.01-23.10.54:718][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.08.01-23.10.56:157][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.08.01-23.10.56:691][  0]SourceControl: Info Source control is disabled
+[2015.08.01-23.10.57:147][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.08.01-23.10.57:147][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.08.01-23.10.57:258][  0]LogEngine: Initializing Engine...
+[2015.08.01-23.10.57:262][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.08.01-23.10.57:277][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 108
+[2015.08.01-23.10.57:510][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.08.01-23.10.57:608][  0]LogInit: XAudio2 using 'Main Line 1 (Virtual Audio Cable)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.01-23.10.57:621][  0]LogInit: FAudioDevice initialized.
+[2015.08.01-23.10.57:670][  0]LogDerivedDataCache: Saved boot cache 0.05s 53MB C:/Users/Tokala/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.01-23.10.57:681][  0]LogInit: Texture streaming: Disabled
+[2015.08.01-23.10.57:717][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.08.01-23.10.57:717][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.01-23.10.57:717][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 65de31594905b462db7181a8aa4b7a14|f5b1aae818df46afbd515a2ebd6af19b|a0e22b3b-da03-459e-827f-7f7c36f8cd2d
+[2015.08.01-23.10.57:717][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.08.01-23.10.57:756][  0]LogInit: Transaction tracking system initialized
+[2015.08.01-23.10.57:942][  0]BlueprintLog: New page: Editor Load
+[2015.08.01-23.10.57:992][  0]LogAssetRegistry: FAssetRegistry took 0.0095 seconds to start up
+[2015.08.01-23.10.57:992][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.08.01-23.10.59:140][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.08.01-23.10.59:140][  0]LogConsoleResponse:Display: 
+[2015.08.01-23.10.59:301][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.08.01-23.10.59:625][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.08.01-23.10.59:625][  0]LightingResults: New page: Lighting Build
+[2015.08.01-23.10.59:650][  0]MapCheck: New page: Map Check
+[2015.08.01-23.10.59:650][  0]LightingResults: New page: Lighting Build
+[2015.08.01-23.10.59:669][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A890B80
+[2015.08.01-23.11.00:328][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2015.08.01-23.11.00:336][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.08.01-23.11.00:376][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.08.01-23.11.00:427][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 50.372ms to complete.
+[2015.08.01-23.11.00:427][  0]LogFileHelpers: Loading map 'Template_Default' took 0.802
+[2015.08.01-23.11.00:660][  0]LogCollectionManager: Loaded 0 collections in 0.002485 seconds
+[2015.08.01-23.11.00:671][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 1792 classes and 301 folders.
+[2015.08.01-23.11.00:755][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2015.08.01-23.11.00:796][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.08.01-23.11.00:820][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2015.08.01-23.11.00:899][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.08.01-23.11.00:900][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.11.00:905][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.08.01-23.11.00:926][  0]LogLoad: Full Startup: 13.18 seconds (BP compile: 0.29 seconds)
+[2015.08.01-23.11.01:356][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.08.01-23.11.01:395][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.08.01-23.11.01:570][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.08.01-23.11.03:494][  6]LogAssetRegistry: Asset discovery search completed in 5.5128 seconds
+[2015.08.01-23.11.03:852][  7]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.11.23:481][394]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.01-23.11.23:560][394]PIE: New page: PIE session: Untitled_1 (Aug 2, 2015, 3:11:23 AM)
+[2015.08.01-23.11.23:561][394]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2015.08.01-23.11.23:563][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002458s)
+[2015.08.01-23.11.23:564][394]LogAIModule: Creating AISystem for world Untitled_1
+[2015.08.01-23.11.23:565][394]LogPlayLevel: PIE: World Init took: (0.001330s)
+[2015.08.01-23.11.23:565][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003984s)
+[2015.08.01-23.11.23:730][394]LogInit: XAudio2 using 'Main Line 1 (Virtual Audio Cable)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.01-23.11.23:735][394]LogInit: FAudioDevice initialized.
+[2015.08.01-23.11.23:792][394]LogWorld: Game class is 'GameMode'
+[2015.08.01-23.11.23:798][394]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2015.08.02-01.11.23
+[2015.08.01-23.11.23:799][394]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.01-23.11.23:799][394]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.01-23.11.23:800][394]LogWorld: Bringing up level for play took: 0.003589
+[2015.08.01-23.11.23:803][394]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.778
+[2015.08.01-23.11.34:449][280]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A4A9620
+[2015.08.01-23.11.37:510][424]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.11.40:710][643]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.11.40:868][643]LogLinker:Warning: Can't find file '/Game/streets/HailHydrant'
+[2015.08.01-23.11.40:868][643]LogLinker:Warning: Can't find file for asset '/Game/streets/HailHydrant' while loading ../../../../../../Users/Tokala/Documents/Unreal Projects/Game/Content/Maps/Noob_land_01.umap.
+[2015.08.01-23.11.40:868][643]LoadErrors:Error: Error /Game/Maps/Noob_land_01 : Can't find file for asset. /Game/streets/HailHydrant
+[2015.08.01-23.11.40:868][643]LogLinker:Warning: Can't find file '/Game/streets/lightpost'
+[2015.08.01-23.11.40:868][643]LogLinker:Warning: Can't find file for asset '/Game/streets/lightpost' while loading ../../../../../../Users/Tokala/Documents/Unreal Projects/Game/Content/Maps/Noob_land_01.umap.
+[2015.08.01-23.11.40:868][643]LoadErrors:Error: Error /Game/Maps/Noob_land_01 : Can't find file for asset. /Game/streets/lightpost
+[2015.08.01-23.11.40:869][643]LogLinker:Warning: Can't find file '/Game/streets/HailHydrant'
+[2015.08.01-23.11.40:869][643]LogLinker:Warning: Can't find file for asset '/Game/streets/HailHydrant' while loading ../../../../../../Users/Tokala/Documents/Unreal Projects/Game/Content/Maps/Noob_land_01.umap.
+[2015.08.01-23.11.40:869][643]LogLinker:Warning: Can't find file '/Game/streets/lightpost'
+[2015.08.01-23.11.40:869][643]LogLinker:Warning: Can't find file for asset '/Game/streets/lightpost' while loading ../../../../../../Users/Tokala/Documents/Unreal Projects/Game/Content/Maps/Noob_land_01.umap.
+[2015.08.01-23.11.40:885][643]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.LightSource.ArrowComponent0 and ArrowComponent /Game/Maps/Noob_land_01.Noob_land_01:PersistentLevel.LightSource.ArrowComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.01-23.11.40:885][643]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart.Arrow and ArrowComponent /Game/Maps/Noob_land_01.Noob_land_01:PersistentLevel.PlayerStart.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.01-23.11.40:885][643]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart.Sprite and BillboardComponent /Game/Maps/Noob_land_01.Noob_land_01:PersistentLevel.PlayerStart.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.01-23.11.40:885][643]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart.Sprite2 and BillboardComponent /Game/Maps/Noob_land_01.Noob_land_01:PersistentLevel.PlayerStart.Sprite2, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.01-23.11.40:885][643]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.SkyLight_1.Sprite and BillboardComponent /Game/Maps/Noob_land_01.Noob_land_01:PersistentLevel.SkyLight_1.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.01-23.11.40:885][643]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart.CollisionCapsule and CapsuleComponent /Game/Maps/Noob_land_01.Noob_land_01:PersistentLevel.PlayerStart.CollisionCapsule, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.01-23.11.40:885][643]LogUObjectGlobals:Warning: Guid is in use by DirectionalLightComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.LightSource.LightComponent0 and DirectionalLightComponent /Game/Maps/Noob_land_01.Noob_land_01:PersistentLevel.LightSource.LightComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.01-23.11.40:890][643]LogUObjectGlobals:Warning: Guid is in use by SkyLightComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.SkyLight_1.SkyLightComponent0 and SkyLightComponent /Game/Maps/Noob_land_01.Noob_land_01:PersistentLevel.SkyLight_1.SkyLightComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.01-23.11.40:891][643]LogLinker:Warning: Can't find file '/Game/streets/HailHydrant'
+[2015.08.01-23.11.40:891][643]LoadErrors: Info Failed to load /Game/streets/HailHydrant.HailHydrant Referenced by HailHydrant_40
+[2015.08.01-23.11.40:891][643]LogLinker:Warning: Can't find file for asset '/Game/streets/HailHydrant' while loading NULL.
+[2015.08.01-23.11.40:891][643]LogLinker:Warning: Can't find file '/Game/streets/lightpost'
+[2015.08.01-23.11.40:891][643]LoadErrors: Info Failed to load /Game/streets/lightpost.lightpost Referenced by lightpost_7
+[2015.08.01-23.11.40:891][643]LogLinker:Warning: Can't find file for asset '/Game/streets/lightpost' while loading NULL.
+[2015.08.01-23.11.40:909][643]LogAIModule: Creating AISystem for world Noob_land_01
+[2015.08.01-23.11.41:037][643]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.11.42:730][643]Cmd: MAP LOAD FILE="../../../../../../Users/Tokala/Documents/Unreal Projects/Game/Content/Maps/Noob_land_01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.08.01-23.11.42:731][643]LightingResults: New page: Lighting Build
+[2015.08.01-23.11.42:758][643]LoadErrors: New page: Loading map: Noob_land_01.umap
+[2015.08.01-23.11.42:759][643]MapCheck: New page: Map Check
+[2015.08.01-23.11.42:759][643]LightingResults: New page: Lighting Build
+[2015.08.01-23.11.42:774][643]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000EA73600
+[2015.08.01-23.11.42:877][643]LogLinker:Warning: Can't find file '/Game/streets/HailHydrant'
+[2015.08.01-23.11.42:877][643]LogLinker:Warning: Can't find file for asset '/Game/streets/HailHydrant' while loading ../../../../../../Users/Tokala/Documents/Unreal Projects/Game/Content/Maps/Noob_land_01.umap.
+[2015.08.01-23.11.42:878][643]LoadErrors:Error: Error /Game/Maps/Noob_land_01 : Can't find file for asset. /Game/streets/HailHydrant
+[2015.08.01-23.11.42:878][643]LogLinker:Warning: Can't find file '/Game/streets/lightpost'
+[2015.08.01-23.11.42:878][643]LogLinker:Warning: Can't find file for asset '/Game/streets/lightpost' while loading ../../../../../../Users/Tokala/Documents/Unreal Projects/Game/Content/Maps/Noob_land_01.umap.
+[2015.08.01-23.11.42:878][643]LoadErrors:Error: Error /Game/Maps/Noob_land_01 : Can't find file for asset. /Game/streets/lightpost
+[2015.08.01-23.11.42:879][643]LogLinker:Warning: Can't find file '/Game/streets/HailHydrant'
+[2015.08.01-23.11.42:879][643]LogLinker:Warning: Can't find file for asset '/Game/streets/HailHydrant' while loading ../../../../../../Users/Tokala/Documents/Unreal Projects/Game/Content/Maps/Noob_land_01.umap.
+[2015.08.01-23.11.42:879][643]LogLinker:Warning: Can't find file '/Game/streets/lightpost'
+[2015.08.01-23.11.42:880][643]LogLinker:Warning: Can't find file for asset '/Game/streets/lightpost' while loading ../../../../../../Users/Tokala/Documents/Unreal Projects/Game/Content/Maps/Noob_land_01.umap.
+[2015.08.01-23.11.42:911][643]LogLinker:Warning: Can't find file '/Game/streets/HailHydrant'
+[2015.08.01-23.11.42:911][643]LoadErrors: Info Failed to load /Game/streets/HailHydrant.HailHydrant Referenced by HailHydrant_40
+[2015.08.01-23.11.42:912][643]LogLinker:Warning: Can't find file for asset '/Game/streets/HailHydrant' while loading NULL.
+[2015.08.01-23.11.42:912][643]LogLinker:Warning: Can't find file '/Game/streets/lightpost'
+[2015.08.01-23.11.42:912][643]LoadErrors: Info Failed to load /Game/streets/lightpost.lightpost Referenced by lightpost_7
+[2015.08.01-23.11.42:912][643]LogLinker:Warning: Can't find file for asset '/Game/streets/lightpost' while loading NULL.
+[2015.08.01-23.11.42:920][643]LogAIModule: Creating AISystem for world Noob_land_01
+[2015.08.01-23.11.44:173][643]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.08.01-23.11.44:243][643]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.11.44:283][643]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.08.01-23.11.44:331][643]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 48.035ms to complete.
+[2015.08.01-23.11.44:331][643]LogFileHelpers: Loading map 'Noob_land_01' took 1.603
+[2015.08.01-23.11.44:425][644]Cmd: UpdateLandscapeEditorData -warnings
+[2015.08.01-23.11.44:427][644]Cmd: UpdateLandscapeEditorData
+[2015.08.01-23.11.53:185][237]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.01-23.11.53:185][237]PIE: New page: PIE session: Noob_land_01 (Aug 2, 2015, 3:11:53 AM)
+[2015.08.01-23.11.53:186][237]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Noob_land_01
+[2015.08.01-23.11.53:206][237]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019761s)
+[2015.08.01-23.11.53:206][237]LogAIModule: Creating AISystem for world Noob_land_01
+[2015.08.01-23.11.53:207][237]LogPlayLevel: PIE: World Init took: (0.001640s)
+[2015.08.01-23.11.53:207][237]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Noob_land_01.Noob_land_01 to /Game/Maps/UEDPIE_0_Noob_land_01.Noob_land_01 (0.021708s)
+[2015.08.01-23.11.53:334][237]LogInit: XAudio2 using 'Main Line 1 (Virtual Audio Cable)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.01-23.11.53:338][237]LogInit: FAudioDevice initialized.
+[2015.08.01-23.11.53:377][237]LogWorld: Game class is 'GameMode'
+[2015.08.01-23.11.53:399][237]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Noob_land_01.Noob_land_01 up for play (max tick rate 0) at 2015.08.02-01.11.53
+[2015.08.01-23.11.53:399][237]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Noob_land_01.Noob_land_01:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.01-23.11.53:399][237]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Noob_land_01.Noob_land_01:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.01-23.11.53:400][237]LogWorld: Bringing up level for play took: 0.019190
+[2015.08.01-23.11.53:402][237]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Noob_land_01 0.378
+[2015.08.01-23.12.40:352][556]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CDD8680
+[2015.08.01-23.12.47:886][ 75]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.12.47:925][ 76]LogActorFactory: Actor Factory created lightpost
+[2015.08.01-23.12.50:452][231]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.12.51:183][256]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.13.01:029][928]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.13.01:972][980]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.13.02:183][986]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.13.02:321][987]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.13.02:461][988]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.13.13:457][748]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.13.19:996][224]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.13.21:293][286]LogEditorFactories: Performing atomic reimport of [C:/Users/Tokala/Documents/Unreal Projects/Game/non U4 Models/HailHydrant.obj]
+[2015.08.01-23.13.21:332][286]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.13.21:393][286]LogFbx: Loading FBX Scene from C:/Users/Tokala/Documents/Unreal Projects/Game/non U4 Models/HailHydrant.obj
+[2015.08.01-23.13.21:409][286]LogFbx: FBX Scene Loaded Succesfully
+[2015.08.01-23.13.21:413][286]LogFbx:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
+[2015.08.01-23.13.21:415][286]LogFbx:Warning: Triangulating static mesh default
+[2015.08.01-23.13.21:978][286]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.13.22:000][286]LogStaticMesh: Building static mesh HailHydrant...
+[2015.08.01-23.13.22:063][286]LogStaticMesh: Built static mesh [0.063400.2s] /Game/street_decor/HailHydrant.HailHydrant
+[2015.08.01-23.13.22:077][286]LogStaticMesh:Warning: HailHydrant has degenerate tangent bases which will result in incorrect shading. 
+[2015.08.01-23.13.22:084][286]LogFbx:Warning: Warning HailHydrant has degenerate tangent bases which will result in incorrect shading. 
+[2015.08.01-23.13.22:089][286]LogEditorFactories: -- imported successfully
+[2015.08.01-23.13.22:145][286]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.13.26:498][574]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.13.28:557][710]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.13.29:154][742]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.13.29:668][775]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.13.30:220][803]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.13.30:665][831]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.13.32:234][926]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.13.32:840][965]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.13.32:997][969]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.13.36:121][169]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.13.37:004][217]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.13.37:173][224]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.13.38:565][310]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.13.45:036][692]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.13.55:116][348]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.13.57:321][468]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.15.13:330][354]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.01-23.15.13:330][354]PIE: New page: PIE session: Noob_land_01 (Aug 2, 2015, 3:15:13 AM)
+[2015.08.01-23.15.13:331][354]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Noob_land_01
+[2015.08.01-23.15.13:350][354]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018837s)
+[2015.08.01-23.15.13:351][354]LogAIModule: Creating AISystem for world Noob_land_01
+[2015.08.01-23.15.13:352][354]LogPlayLevel: PIE: World Init took: (0.001779s)
+[2015.08.01-23.15.13:352][354]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Noob_land_01.Noob_land_01 to /Game/Maps/UEDPIE_0_Noob_land_01.Noob_land_01 (0.020894s)
+[2015.08.01-23.15.13:519][354]LogInit: XAudio2 using 'Main Line 1 (Virtual Audio Cable)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.01-23.15.13:524][354]LogInit: FAudioDevice initialized.
+[2015.08.01-23.15.13:568][354]LogWorld: Game class is 'GameMode'
+[2015.08.01-23.15.13:594][354]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Noob_land_01.Noob_land_01 up for play (max tick rate 0) at 2015.08.02-01.15.13
+[2015.08.01-23.15.13:594][354]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Noob_land_01.Noob_land_01:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.01-23.15.13:595][354]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Noob_land_01.Noob_land_01:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.01-23.15.13:595][354]LogWorld: Bringing up level for play took: 0.023093
+[2015.08.01-23.15.13:598][354]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Noob_land_01 0.591
+[2015.08.01-23.15.45:700][996]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C49ED40
+[2015.08.01-23.15.47:282][ 80]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.15.48:154][116]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.15.50:159][197]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.15.52:987][337]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.15.53:465][346]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.15.55:283][435]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.15.55:357][436]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.15.55:781][457]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.16.01:731][829]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.16.06:097][126]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.17.05:917][ 64]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.17.06:697][ 97]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.17.09:481][234]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.17.10:037][248]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.17.10:256][251]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.17.12:766][389]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.17.12:846][389]LogMaterial: Missing cached shader map for material SkySphereMaterial, compiling. 
+[2015.08.01-23.17.12:904][389]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2015.08.01-23.17.47:506][389]LogMaterial: Missing cached shader map for material DefaultDeferredDecalMaterial, compiling. 
+[2015.08.01-23.17.48:065][389]LogMaterial: Missing cached shader map for material DefaultLightFunctionMaterial, compiling. 
+[2015.08.01-23.17.48:257][389]LogMaterial: Missing cached shader map for material DefaultPostProcessMaterial, compiling. 
+[2015.08.01-23.17.48:881][389]LogMaterial: Missing cached shader map for material FloorPlaneMaterial, compiling. 
+[2015.08.01-23.17.48:900][389]LogMaterial: Missing cached shader map for material LandscapeGizmo_Mat, compiling. 
+[2015.08.01-23.17.48:907][389]LogMaterial: Missing cached shader map for material LandscapeGizmoHeight_Mat, compiling. 
+[2015.08.01-23.17.48:929][389]LogMaterial: Missing cached shader map for material SplineEditorMeshMat, compiling. 
+[2015.08.01-23.17.48:936][389]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2015.08.01-23.17.48:961][389]LogMaterial: Missing cached shader map for material MatineeCam_mat, compiling. 
+[2015.08.01-23.17.48:976][389]LogMaterial: Missing cached shader map for material HelpActorMaterial, compiling. 
+[2015.08.01-23.17.48:986][389]LogMaterial: Missing cached shader map for material DefaultTextMaterialOpaque, compiling. 
+[2015.08.01-23.17.49:010][389]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
+[2015.08.01-23.17.49:086][389]LogMaterial: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
+[2015.08.01-23.17.49:091][389]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
+[2015.08.01-23.17.49:095][389]LogMaterial: Missing cached shader map for material CustomDepth, compiling. 
+[2015.08.01-23.17.49:100][389]LogMaterial: Missing cached shader map for material DecalMask, compiling. 
+[2015.08.01-23.17.49:104][389]LogMaterial: Missing cached shader map for material FinalImage, compiling. 
+[2015.08.01-23.17.49:110][389]LogMaterial: Missing cached shader map for material LightingModel, compiling. 
+[2015.08.01-23.17.49:116][389]LogMaterial: Missing cached shader map for material MaterialAO, compiling. 
+[2015.08.01-23.17.49:121][389]LogMaterial: Missing cached shader map for material Metallic, compiling. 
+[2015.08.01-23.17.49:125][389]LogMaterial: Missing cached shader map for material Opacity, compiling. 
+[2015.08.01-23.17.49:129][389]LogMaterial: Missing cached shader map for material Roughness, compiling. 
+[2015.08.01-23.17.49:134][389]LogMaterial: Missing cached shader map for material SceneColor, compiling. 
+[2015.08.01-23.17.49:138][389]LogMaterial: Missing cached shader map for material SceneDepth, compiling. 
+[2015.08.01-23.17.49:143][389]LogMaterial: Missing cached shader map for material SeparateTranslucencyRGB, compiling. 
+[2015.08.01-23.17.49:150][389]LogMaterial: Missing cached shader map for material SeparateTranslucencyA, compiling. 
+[2015.08.01-23.17.49:155][389]LogMaterial: Missing cached shader map for material Specular, compiling. 
+[2015.08.01-23.17.49:160][389]LogMaterial: Missing cached shader map for material SubsurfaceColor, compiling. 
+[2015.08.01-23.17.49:165][389]LogMaterial: Missing cached shader map for material WorldNormal, compiling. 
+[2015.08.01-23.17.49:169][389]LogMaterial: Missing cached shader map for material AmbientOcclusion, compiling. 
+[2015.08.01-23.17.49:174][389]LogMaterial: Missing cached shader map for material CustomDepthWorldUnits, compiling. 
+[2015.08.01-23.17.49:179][389]LogMaterial: Missing cached shader map for material SceneDepthWorldUnits, compiling. 
+[2015.08.01-23.17.49:185][389]LogMaterial: Missing cached shader map for material LM_HandColor, compiling. 
+[2015.08.01-23.17.49:202][389]LogMaterial: Missing cached shader map for material HighResScreenshot, compiling. 
+[2015.08.01-23.17.49:211][389]LogMaterial: Missing cached shader map for material HighResScreenshotMask, compiling. 
+[2015.08.01-23.17.49:216][389]LogMaterial: Missing cached shader map for material HighResScreenshotCaptureRegion, compiling. 
+[2015.08.01-23.17.49:222][389]LogMaterial: Missing cached shader map for material WireframeMaterial, compiling. Is special engine material.
+[2015.08.01-23.17.49:251][389]LogMaterial: Missing cached shader map for material LevelColorationLitMaterial, compiling. Is special engine material.
+[2015.08.01-23.17.49:428][389]LogMaterial: Missing cached shader map for material LevelColorationUnlitMaterial, compiling. Is special engine material.
+[2015.08.01-23.17.49:461][389]LogMaterial: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
+[2015.08.01-23.17.49:461][389]LogMaterial:Warning: Failed to compile Material /Engine/EngineDebugMaterials/MAT_LevelColorationLitLightmapUV.MAT_LevelColorationLitLightmapUV for platform PCD3D_ES2, Default Material will be used in game.
+[2015.08.01-23.17.49:461][389]LogMaterial:Warning: 	(Node LightmapUVs) Node not supported in feature level ES2
+[2015.08.01-23.17.49:468][389]LogMaterial: Missing cached shader map for material ShadedLevelColorationLitMaterial, compiling. Is special engine material.
+[2015.08.01-23.17.49:680][389]LogMaterial: Missing cached shader map for material ShadedLevelColorationUnlitMateri, compiling. Is special engine material.
+[2015.08.01-23.17.49:704][389]LogMaterial: Missing cached shader map for material VertexColorMaterial, compiling. 
+[2015.08.01-23.17.49:741][389]LogMaterial: Missing cached shader map for material VertexColorViewMode_ColorOnly, compiling. 
+[2015.08.01-23.17.49:824][389]LogMaterial: Missing cached shader map for material VertexColorViewMode_AlphaAsColor, compiling. 
+[2015.08.01-23.17.49:832][389]LogMaterial: Missing cached shader map for material VertexColorViewMode_RedOnly, compiling. 
+[2015.08.01-23.17.49:838][389]LogMaterial: Missing cached shader map for material VertexColorViewMode_GreenOnly, compiling. 
+[2015.08.01-23.17.49:847][389]LogMaterial: Missing cached shader map for material VertexColorViewMode_BlueOnly, compiling. 
+[2015.08.01-23.17.49:855][389]LogMaterial: Missing cached shader map for material RemoveSurfaceMaterial, compiling. 
+[2015.08.01-23.17.49:860][389]LogMaterial: Missing cached shader map for material DebugMeshMaterial, compiling. 
+[2015.08.01-23.17.49:866][389]LogMaterial: Missing cached shader map for material M_InvalidLightmapSettings, compiling. 
+[2015.08.01-23.17.49:883][389]LogMaterial: Missing cached shader map for material GizmoMaterial, compiling. 
+[2015.08.01-23.17.49:890][389]LogMaterial: Missing cached shader map for material GeomMaterial, compiling. 
+[2015.08.01-23.17.49:894][389]LogMaterial: Missing cached shader map for material EditorBrushMaterial, compiling. 
+[2015.08.01-23.17.49:900][389]LogMaterial: Missing cached shader map for material BoneWeightMaterial, compiling. 
+[2015.08.01-23.17.49:947][389]LogMaterial: Missing cached shader map for material PreviewShadowIndicatorMaterial, compiling. 
+[2015.08.01-23.17.49:947][389]LogMaterial:Warning: Failed to compile Material /Engine/EditorMaterials/PreviewShadowIndicatorMaterial.PreviewShadowIndicatorMaterial for platform PCD3D_ES2, Default Material will be used in game.
+[2015.08.01-23.17.49:947][389]LogMaterial:Warning: 	(Node TextureSample) Node not supported in feature level ES2
+[2015.08.01-23.17.49:949][389]LogMaterial: Missing cached shader map for material PhAT_JointLimitMaterial, compiling. 
+[2015.08.01-23.17.49:954][389]LogMaterial: Missing cached shader map for material Cross_Mat, compiling. 
+[2015.08.01-23.17.49:960][389]LogMaterial: Missing cached shader map for material PhAT_BoneSelectedMaterial, compiling. 
+[2015.08.01-23.17.49:965][389]LogMaterial: Missing cached shader map for material PhAT_ElemSelectedMaterial, compiling. 
+[2015.08.01-23.17.49:969][389]LogMaterial: Missing cached shader map for material PhAT_NoCollisionMaterial, compiling. 
+[2015.08.01-23.17.49:974][389]LogMaterial: Missing cached shader map for material PhAT_UnselectedMaterial, compiling. 
+[2015.08.01-23.17.49:978][389]LogMaterial: Missing cached shader map for material Tick_Mat, compiling. 
+[2015.08.01-23.17.49:983][389]LogMaterial: Missing cached shader map for material WidgetGridVertexColorMaterial_Ma, compiling. 
+[2015.08.01-23.17.49:989][389]LogMaterial: Missing cached shader map for material WidgetMaterial, compiling. 
+[2015.08.01-23.17.49:995][389]LogMaterial: Missing cached shader map for material WidgetMaterial_Current, compiling. 
+[2015.08.01-23.17.50:000][389]LogMaterial: Missing cached shader map for material WidgetMaterial_X, compiling. 
+[2015.08.01-23.17.50:007][389]LogMaterial: Missing cached shader map for material WidgetMaterial_Y, compiling. 
+[2015.08.01-23.17.50:013][389]LogMaterial: Missing cached shader map for material WidgetMaterial_Z, compiling. 
+[2015.08.01-23.17.50:019][389]LogMaterial: Missing cached shader map for material WidgetVertexColorMaterial, compiling. 
+[2015.08.01-23.17.50:026][389]LogMaterial: Missing cached shader map for material LevelGridMaterial, compiling. 
+[2015.08.01-23.17.50:029][389]LogMaterial:Warning: Failed to compile Material /Engine/EditorMaterials/LevelGridMaterial.LevelGridMaterial for platform PCD3D_ES2, Default Material will be used in game.
+[2015.08.01-23.17.50:029][389]LogMaterial:Warning: 	Function TilingAAGrid: (Node DDX) Node not supported in feature level ES2
+[2015.08.01-23.17.50:029][389]LogMaterial:Warning: 	Function TilingAAGrid: (Node DDY) Node not supported in feature level ES2
+[2015.08.01-23.17.50:029][389]LogMaterial:Warning: 	Function TilingAAGrid: (Node If) If input A must be of type float.
+[2015.08.01-23.17.50:029][389]LogMaterial:Warning: 	Function Blend_Screen: (Node DDX) Node not supported in feature level ES2
+[2015.08.01-23.17.50:029][389]LogMaterial:Warning: 	Function Blend_Screen: (Node DDY) Node not supported in feature level ES2
+[2015.08.01-23.17.50:029][389]LogMaterial:Warning: 	Function Blend_Screen: (Node If) If input A must be of type float.
+[2015.08.01-23.17.50:029][389]LogMaterial:Warning: 	Function CompositeARGBLayer: (Node DDX) Node not supported in feature level ES2
+[2015.08.01-23.17.50:029][389]LogMaterial:Warning: 	Function CompositeARGBLayer: (Node DDY) Node not supported in feature level ES2
+[2015.08.01-23.17.50:029][389]LogMaterial:Warning: 	Function CompositeARGBLayer: (Node If) If input A must be of type float.
+[2015.08.01-23.17.50:031][389]LogMaterial: Missing cached shader map for material BlinkingCaret, compiling. 
+[2015.08.01-23.17.50:036][389]LogMaterial: Missing cached shader map for material M_StreamingPause, compiling. 
+[2015.08.01-23.17.50:041][389]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
+[2015.08.01-23.17.50:047][389]LogMaterial: Missing cached shader map for material LevelGridMaterial2, compiling. 
+[2015.08.01-23.17.50:056][389]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2015.08.01-23.17.50:084][389]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2015.08.01-23.17.50:090][389]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2015.08.01-23.17.50:095][389]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2015.08.01-23.17.50:100][389]LogMaterial: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
+[2015.08.01-23.17.55:762][389]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FF48CC0
+[2015.08.01-23.17.56:617][389]LogShaderCompilers:Warning: 		[Searching for changed files] took [0.2229] s
+[2015.08.01-23.17.56:664][389]LogShaderCompilers:Warning: No Shader changes found.
+[2015.08.01-23.17.56:683][389]LogTexture:Display: Building textures: Texture2D_2 (BGRA8)
+[2015.08.01-23.17.56:707][389]LogTexture:Display: Building textures: Texture2D_2 (BGRA8)
+[2015.08.01-23.17.56:720][389]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
+[2015.08.01-23.17.56:762][389]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
+[2015.08.01-23.17.56:771][389]LogTexture:Display: Building textures: Texture2D_5 (BGRA8)
+[2015.08.01-23.17.56:775][389]LogTexture:Display: Building textures: Texture2D_5 (BGRA8)
+[2015.08.01-23.17.56:783][389]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
+[2015.08.01-23.17.56:787][389]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
+[2015.08.01-23.17.56:809][389]LogTexture:Display: Building textures: Texture2D_7 (BGRA8)
+[2015.08.01-23.17.56:828][389]LogTexture:Display: Building textures: Texture2D_7 (BGRA8)
+[2015.08.01-23.17.56:837][389]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
+[2015.08.01-23.17.56:841][389]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
+[2015.08.01-23.17.56:851][389]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
+[2015.08.01-23.17.56:857][389]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
+[2015.08.01-23.17.56:879][389]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
+[2015.08.01-23.17.56:897][389]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
+[2015.08.01-23.17.56:909][389]LogTexture:Display: Building textures: Texture2D_11 (BGRA8)
+[2015.08.01-23.17.56:912][389]LogTexture:Display: Building textures: Texture2D_11 (BGRA8)
+[2015.08.01-23.17.56:920][389]LogTexture:Display: Building textures: Texture2D_12 (BGRA8)
+[2015.08.01-23.17.56:942][389]LogTexture:Display: Building textures: Texture2D_12 (BGRA8)
+[2015.08.01-23.17.56:952][389]LogTexture:Display: Building textures: Texture2D_13 (BGRA8)
+[2015.08.01-23.17.56:957][389]LogTexture:Display: Building textures: Texture2D_13 (BGRA8)
+[2015.08.01-23.17.56:980][389]LogTexture:Display: Building textures: Texture2D_14 (BGRA8)
+[2015.08.01-23.17.56:994][389]LogTexture:Display: Building textures: Texture2D_14 (BGRA8)
+[2015.08.01-23.17.57:033][389]LogTexture:Display: Building textures: Texture2D_15 (BGRA8)
+[2015.08.01-23.17.57:036][389]LogTexture:Display: Building textures: Texture2D_15 (BGRA8)
+[2015.08.01-23.17.57:044][389]LogTexture:Display: Building textures: Texture2D_16 (BGRA8)
+[2015.08.01-23.17.57:048][389]LogTexture:Display: Building textures: Texture2D_16 (BGRA8)
+[2015.08.01-23.17.57:068][389]LogTexture:Display: Building textures: Texture2D_17 (BGRA8)
+[2015.08.01-23.17.57:078][389]LogTexture:Display: Building textures: Texture2D_17 (BGRA8)
+[2015.08.01-23.17.57:087][389]LogTexture:Display: Building textures: Texture2D_18 (BGRA8)
+[2015.08.01-23.17.57:092][389]LogTexture:Display: Building textures: Texture2D_18 (BGRA8)
+[2015.08.01-23.17.57:100][389]LogTexture:Display: Building textures: Texture2D_19 (BGRA8)
+[2015.08.01-23.17.57:104][389]LogTexture:Display: Building textures: Texture2D_19 (BGRA8)
+[2015.08.01-23.17.57:112][389]LogTexture:Display: Building textures: Texture2D_20 (BGRA8)
+[2015.08.01-23.17.57:116][389]LogTexture:Display: Building textures: Texture2D_20 (BGRA8)
+[2015.08.01-23.17.57:125][389]LogTexture:Display: Building textures: Texture2D_21 (BGRA8)
+[2015.08.01-23.17.57:131][389]LogTexture:Display: Building textures: Texture2D_21 (BGRA8)
+[2015.08.01-23.17.57:152][389]LogTexture:Display: Building textures: Texture2D_22 (BGRA8)
+[2015.08.01-23.17.57:166][389]LogTexture:Display: Building textures: Texture2D_22 (BGRA8)
+[2015.08.01-23.17.57:175][389]LogTexture:Display: Building textures: Texture2D_23 (BGRA8)
+[2015.08.01-23.17.57:189][389]LogTexture:Display: Building textures: Texture2D_23 (BGRA8)
+[2015.08.01-23.17.57:217][389]LogTexture:Display: Building textures: Texture2D_24 (BGRA8)
+[2015.08.01-23.17.57:224][389]LogTexture:Display: Building textures: Texture2D_24 (BGRA8)
+[2015.08.01-23.17.57:233][389]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2015.08.01-23.17.57:247][389]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2015.08.01-23.17.57:264][389]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2015.08.01-23.17.57:279][389]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2015.08.01-23.17.57:288][389]LogTexture:Display: Building textures: Texture2D_27 (BGRA8)
+[2015.08.01-23.17.57:294][389]LogTexture:Display: Building textures: Texture2D_27 (BGRA8)
+[2015.08.01-23.17.57:302][389]LogTexture:Display: Building textures: Texture2D_28 (BGRA8)
+[2015.08.01-23.17.57:321][389]LogTexture:Display: Building textures: Texture2D_28 (BGRA8)
+[2015.08.01-23.17.57:336][389]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2015.08.01-23.17.57:348][389]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2015.08.01-23.17.57:355][389]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2015.08.01-23.17.57:361][389]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2015.08.01-23.17.57:370][389]LogTexture:Display: Building textures: Texture2D_31 (BGRA8)
+[2015.08.01-23.17.57:374][389]LogTexture:Display: Building textures: Texture2D_31 (BGRA8)
+[2015.08.01-23.17.57:395][389]LogTexture:Display: Building textures: Texture2D_32 (BGRA8)
+[2015.08.01-23.17.57:413][389]LogTexture:Display: Building textures: Texture2D_32 (BGRA8)
+[2015.08.01-23.17.57:426][389]LogTexture:Display: Building textures: Texture2D_33 (BGRA8)
+[2015.08.01-23.17.57:431][389]LogTexture:Display: Building textures: Texture2D_33 (BGRA8)
+[2015.08.01-23.17.57:439][389]LogTexture:Display: Building textures: Texture2D_34 (BGRA8)
+[2015.08.01-23.17.57:449][389]LogTexture:Display: Building textures: Texture2D_34 (BGRA8)
+[2015.08.01-23.17.57:458][389]LogTexture:Display: Building textures: Texture2D_35 (BGRA8)
+[2015.08.01-23.17.57:461][389]LogTexture:Display: Building textures: Texture2D_35 (BGRA8)
+[2015.08.01-23.17.57:469][389]LogTexture:Display: Building textures: Texture2D_36 (BGRA8)
+[2015.08.01-23.17.57:473][389]LogTexture:Display: Building textures: Texture2D_36 (BGRA8)
+[2015.08.01-23.17.57:480][389]LogTexture:Display: Building textures: Texture2D_37 (BGRA8)
+[2015.08.01-23.17.57:499][389]LogTexture:Display: Building textures: Texture2D_37 (BGRA8)
+[2015.08.01-23.17.57:512][389]LogTexture:Display: Building textures: Texture2D_38 (BGRA8)
+[2015.08.01-23.17.57:527][389]LogTexture:Display: Building textures: Texture2D_38 (BGRA8)
+[2015.08.01-23.17.57:536][389]LogTexture:Display: Building textures: Texture2D_39 (BGRA8)
+[2015.08.01-23.17.57:547][389]LogTexture:Display: Building textures: Texture2D_39 (BGRA8)
+[2015.08.01-23.17.57:556][389]LogTexture:Display: Building textures: Texture2D_40 (BGRA8)
+[2015.08.01-23.17.57:560][389]LogTexture:Display: Building textures: Texture2D_40 (BGRA8)
+[2015.08.01-23.17.57:567][389]LogTexture:Display: Building textures: Texture2D_41 (BGRA8)
+[2015.08.01-23.17.57:572][389]LogTexture:Display: Building textures: Texture2D_41 (BGRA8)
+[2015.08.01-23.17.57:579][389]LogTexture:Display: Building textures: Texture2D_42 (BGRA8)
+[2015.08.01-23.17.57:599][389]LogTexture:Display: Building textures: Texture2D_42 (BGRA8)
+[2015.08.01-23.17.57:615][389]LogTexture:Display: Building textures: Texture2D_43 (BGRA8)
+[2015.08.01-23.17.57:620][389]LogTexture:Display: Building textures: Texture2D_43 (BGRA8)
+[2015.08.01-23.17.57:643][389]LogTexture:Display: Building textures: Texture2D_44 (BGRA8)
+[2015.08.01-23.17.57:647][389]LogTexture:Display: Building textures: Texture2D_44 (BGRA8)
+[2015.08.01-23.17.57:654][389]LogTexture:Display: Building textures: Texture2D_45 (BGRA8)
+[2015.08.01-23.17.57:658][389]LogTexture:Display: Building textures: Texture2D_45 (BGRA8)
+[2015.08.01-23.17.57:665][389]LogTexture:Display: Building textures: Texture2D_46 (BGRA8)
+[2015.08.01-23.17.57:682][389]LogTexture:Display: Building textures: Texture2D_46 (BGRA8)
+[2015.08.01-23.17.57:697][389]LogTexture:Display: Building textures: Texture2D_47 (BGRA8)
+[2015.08.01-23.17.57:700][389]LogTexture:Display: Building textures: Texture2D_47 (BGRA8)
+[2015.08.01-23.17.57:708][389]LogTexture:Display: Building textures: Texture2D_48 (BGRA8)
+[2015.08.01-23.17.57:711][389]LogTexture:Display: Building textures: Texture2D_48 (BGRA8)
+[2015.08.01-23.17.57:719][389]LogTexture:Display: Building textures: Texture2D_49 (BGRA8)
+[2015.08.01-23.17.57:722][389]LogTexture:Display: Building textures: Texture2D_49 (BGRA8)
+[2015.08.01-23.17.57:745][389]LogTexture:Display: Building textures: Texture2D_50 (BGRA8)
+[2015.08.01-23.17.57:763][389]LogTexture:Display: Building textures: Texture2D_50 (BGRA8)
+[2015.08.01-23.17.57:771][389]LogTexture:Display: Building textures: Texture2D_51 (BGRA8)
+[2015.08.01-23.17.57:775][389]LogTexture:Display: Building textures: Texture2D_51 (BGRA8)
+[2015.08.01-23.17.57:783][389]LogTexture:Display: Building textures: Texture2D_52 (BGRA8)
+[2015.08.01-23.17.57:786][389]LogTexture:Display: Building textures: Texture2D_52 (BGRA8)
+[2015.08.01-23.17.57:794][389]LogTexture:Display: Building textures: Texture2D_53 (BGRA8)
+[2015.08.01-23.17.57:798][389]LogTexture:Display: Building textures: Texture2D_53 (BGRA8)
+[2015.08.01-23.17.57:806][389]LogTexture:Display: Building textures: Texture2D_54 (BGRA8)
+[2015.08.01-23.17.57:809][389]LogTexture:Display: Building textures: Texture2D_54 (BGRA8)
+[2015.08.01-23.17.57:817][389]LogTexture:Display: Building textures: Texture2D_55 (BGRA8)
+[2015.08.01-23.17.57:833][389]LogTexture:Display: Building textures: Texture2D_55 (BGRA8)
+[2015.08.01-23.17.57:848][389]LogTexture:Display: Building textures: Texture2D_56 (BGRA8)
+[2015.08.01-23.17.57:855][389]LogTexture:Display: Building textures: Texture2D_56 (BGRA8)
+[2015.08.01-23.17.57:862][389]LogTexture:Display: Building textures: Texture2D_57 (BGRA8)
+[2015.08.01-23.17.57:870][389]LogTexture:Display: Building textures: Texture2D_57 (BGRA8)
+[2015.08.01-23.17.57:878][389]LogTexture:Display: Building textures: Texture2D_58 (BGRA8)
+[2015.08.01-23.17.57:882][389]LogTexture:Display: Building textures: Texture2D_58 (BGRA8)
+[2015.08.01-23.17.57:890][389]LogTexture:Display: Building textures: Texture2D_59 (BGRA8)
+[2015.08.01-23.17.57:894][389]LogTexture:Display: Building textures: Texture2D_59 (BGRA8)
+[2015.08.01-23.17.57:901][389]LogTexture:Display: Building textures: Texture2D_60 (BGRA8)
+[2015.08.01-23.17.57:920][389]LogTexture:Display: Building textures: Texture2D_60 (BGRA8)
+[2015.08.01-23.17.57:937][389]LogTexture:Display: Building textures: Texture2D_61 (BGRA8)
+[2015.08.01-23.17.57:949][389]LogTexture:Display: Building textures: Texture2D_61 (BGRA8)
+[2015.08.01-23.17.57:957][389]LogTexture:Display: Building textures: Texture2D_62 (BGRA8)
+[2015.08.01-23.17.57:960][389]LogTexture:Display: Building textures: Texture2D_62 (BGRA8)
+[2015.08.01-23.17.57:968][389]LogTexture:Display: Building textures: Texture2D_63 (BGRA8)
+[2015.08.01-23.17.57:974][389]LogTexture:Display: Building textures: Texture2D_63 (BGRA8)
+[2015.08.01-23.17.57:982][389]LogTexture:Display: Building textures: Texture2D_64 (BGRA8)
+[2015.08.01-23.17.57:985][389]LogTexture:Display: Building textures: Texture2D_64 (BGRA8)
+[2015.08.01-23.17.57:993][389]LogTexture:Display: Building textures: Texture2D_65 (BGRA8)
+[2015.08.01-23.17.57:997][389]LogTexture:Display: Building textures: Texture2D_65 (BGRA8)
+[2015.08.01-23.17.58:020][389]LogTexture:Display: Building textures: Texture2D_66 (BGRA8)
+[2015.08.01-23.17.58:030][389]LogTexture:Display: Building textures: Texture2D_66 (BGRA8)
+[2015.08.01-23.17.59:146][444]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.18.19:367][576]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.18.20:072][589]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.18.20:951][611]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.18.22:542][676]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.18.24:585][752]LogMaterial: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
+[2015.08.01-23.18.24:585][752]LogMaterial:Warning: Failed to compile Material /Engine/EngineDebugMaterials/MAT_LevelColorationLitLightmapUV.MAT_LevelColorationLitLightmapUV for platform PCD3D_ES2, Default Material will be used in game.
+[2015.08.01-23.18.24:585][752]LogMaterial:Warning: 	(Node LightmapUVs) Node not supported in feature level ES2
+[2015.08.01-23.18.24:666][752]LogMaterial: Missing cached shader map for material PreviewShadowIndicatorMaterial, compiling. 
+[2015.08.01-23.18.24:668][752]LogMaterial:Warning: Failed to compile Material /Engine/EditorMaterials/PreviewShadowIndicatorMaterial.PreviewShadowIndicatorMaterial for platform PCD3D_ES2, Default Material will be used in game.
+[2015.08.01-23.18.24:668][752]LogMaterial:Warning: 	(Node TextureSample) Node not supported in feature level ES2
+[2015.08.01-23.18.24:693][752]LogMaterial: Missing cached shader map for material LevelGridMaterial, compiling. 
+[2015.08.01-23.18.24:696][752]LogMaterial:Warning: Failed to compile Material /Engine/EditorMaterials/LevelGridMaterial.LevelGridMaterial for platform PCD3D_ES2, Default Material will be used in game.
+[2015.08.01-23.18.24:696][752]LogMaterial:Warning: 	Function TilingAAGrid: (Node DDX) Node not supported in feature level ES2
+[2015.08.01-23.18.24:696][752]LogMaterial:Warning: 	Function TilingAAGrid: (Node DDY) Node not supported in feature level ES2
+[2015.08.01-23.18.24:696][752]LogMaterial:Warning: 	Function TilingAAGrid: (Node If) If input A must be of type float.
+[2015.08.01-23.18.24:696][752]LogMaterial:Warning: 	Function Blend_Screen: (Node DDX) Node not supported in feature level ES2
+[2015.08.01-23.18.24:696][752]LogMaterial:Warning: 	Function Blend_Screen: (Node DDY) Node not supported in feature level ES2
+[2015.08.01-23.18.24:697][752]LogMaterial:Warning: 	Function Blend_Screen: (Node If) If input A must be of type float.
+[2015.08.01-23.18.24:697][752]LogMaterial:Warning: 	Function CompositeARGBLayer: (Node DDX) Node not supported in feature level ES2
+[2015.08.01-23.18.24:697][752]LogMaterial:Warning: 	Function CompositeARGBLayer: (Node DDY) Node not supported in feature level ES2
+[2015.08.01-23.18.24:697][752]LogMaterial:Warning: 	Function CompositeARGBLayer: (Node If) If input A must be of type float.
+[2015.08.01-23.18.24:715][752]LogTexture:Display: Building textures: Texture2D_67 (BGRA8)
+[2015.08.01-23.18.24:723][752]LogTexture:Display: Building textures: Texture2D_67 (BGRA8)
+[2015.08.01-23.18.24:724][752]LogTexture:Display: Building textures: Texture2D_68 (BGRA8)
+[2015.08.01-23.18.24:744][752]LogTexture:Display: Building textures: Texture2D_68 (BGRA8)
+[2015.08.01-23.18.24:745][752]LogTexture:Display: Building textures: Texture2D_69 (BGRA8)
+[2015.08.01-23.18.24:751][752]LogTexture:Display: Building textures: Texture2D_69 (BGRA8)
+[2015.08.01-23.18.24:753][752]LogTexture:Display: Building textures: Texture2D_70 (BGRA8)
+[2015.08.01-23.18.24:761][752]LogTexture:Display: Building textures: Texture2D_70 (BGRA8)
+[2015.08.01-23.18.24:762][752]LogTexture:Display: Building textures: Texture2D_71 (BGRA8)
+[2015.08.01-23.18.24:767][752]LogTexture:Display: Building textures: Texture2D_71 (BGRA8)
+[2015.08.01-23.18.24:769][752]LogTexture:Display: Building textures: Texture2D_72 (BGRA8)
+[2015.08.01-23.18.24:771][752]LogTexture:Display: Building textures: Texture2D_72 (BGRA8)
+[2015.08.01-23.18.24:772][752]LogTexture:Display: Building textures: Texture2D_73 (BGRA8)
+[2015.08.01-23.18.24:775][752]LogTexture:Display: Building textures: Texture2D_73 (BGRA8)
+[2015.08.01-23.18.24:776][752]LogTexture:Display: Building textures: Texture2D_74 (BGRA8)
+[2015.08.01-23.18.24:783][752]LogTexture:Display: Building textures: Texture2D_74 (BGRA8)
+[2015.08.01-23.18.24:784][752]LogTexture:Display: Building textures: Texture2D_75 (BGRA8)
+[2015.08.01-23.18.24:787][752]LogTexture:Display: Building textures: Texture2D_75 (BGRA8)
+[2015.08.01-23.18.24:789][752]LogTexture:Display: Building textures: Texture2D_76 (BGRA8)
+[2015.08.01-23.18.24:791][752]LogTexture:Display: Building textures: Texture2D_76 (BGRA8)
+[2015.08.01-23.18.24:792][752]LogTexture:Display: Building textures: Texture2D_77 (BGRA8)
+[2015.08.01-23.18.24:796][752]LogTexture:Display: Building textures: Texture2D_77 (BGRA8)
+[2015.08.01-23.18.24:797][752]LogTexture:Display: Building textures: Texture2D_78 (BGRA8)
+[2015.08.01-23.18.24:799][752]LogTexture:Display: Building textures: Texture2D_78 (BGRA8)
+[2015.08.01-23.18.24:800][752]LogTexture:Display: Building textures: Texture2D_79 (BGRA8)
+[2015.08.01-23.18.24:803][752]LogTexture:Display: Building textures: Texture2D_79 (BGRA8)
+[2015.08.01-23.18.24:805][752]LogTexture:Display: Building textures: Texture2D_80 (BGRA8)
+[2015.08.01-23.18.24:808][752]LogTexture:Display: Building textures: Texture2D_80 (BGRA8)
+[2015.08.01-23.18.24:809][752]LogTexture:Display: Building textures: Texture2D_81 (BGRA8)
+[2015.08.01-23.18.24:812][752]LogTexture:Display: Building textures: Texture2D_81 (BGRA8)
+[2015.08.01-23.18.24:813][752]LogTexture:Display: Building textures: Texture2D_82 (BGRA8)
+[2015.08.01-23.18.24:815][752]LogTexture:Display: Building textures: Texture2D_82 (BGRA8)
+[2015.08.01-23.18.24:817][752]LogTexture:Display: Building textures: Texture2D_83 (BGRA8)
+[2015.08.01-23.18.24:819][752]LogTexture:Display: Building textures: Texture2D_83 (BGRA8)
+[2015.08.01-23.18.24:820][752]LogTexture:Display: Building textures: Texture2D_84 (BGRA8)
+[2015.08.01-23.18.24:822][752]LogTexture:Display: Building textures: Texture2D_84 (BGRA8)
+[2015.08.01-23.18.24:823][752]LogTexture:Display: Building textures: Texture2D_85 (BGRA8)
+[2015.08.01-23.18.24:826][752]LogTexture:Display: Building textures: Texture2D_85 (BGRA8)
+[2015.08.01-23.18.24:827][752]LogTexture:Display: Building textures: Texture2D_86 (BGRA8)
+[2015.08.01-23.18.24:829][752]LogTexture:Display: Building textures: Texture2D_86 (BGRA8)
+[2015.08.01-23.18.24:830][752]LogTexture:Display: Building textures: Texture2D_87 (BGRA8)
+[2015.08.01-23.18.24:832][752]LogTexture:Display: Building textures: Texture2D_87 (BGRA8)
+[2015.08.01-23.18.24:833][752]LogTexture:Display: Building textures: Texture2D_88 (BGRA8)
+[2015.08.01-23.18.24:835][752]LogTexture:Display: Building textures: Texture2D_88 (BGRA8)
+[2015.08.01-23.18.24:837][752]LogTexture:Display: Building textures: Texture2D_89 (BGRA8)
+[2015.08.01-23.18.24:839][752]LogTexture:Display: Building textures: Texture2D_89 (BGRA8)
+[2015.08.01-23.18.24:841][752]LogTexture:Display: Building textures: Texture2D_90 (BGRA8)
+[2015.08.01-23.18.24:845][752]LogTexture:Display: Building textures: Texture2D_90 (BGRA8)
+[2015.08.01-23.18.24:847][752]LogTexture:Display: Building textures: Texture2D_91 (BGRA8)
+[2015.08.01-23.18.24:849][752]LogTexture:Display: Building textures: Texture2D_91 (BGRA8)
+[2015.08.01-23.18.24:851][752]LogTexture:Display: Building textures: Texture2D_92 (BGRA8)
+[2015.08.01-23.18.24:853][752]LogTexture:Display: Building textures: Texture2D_92 (BGRA8)
+[2015.08.01-23.18.24:854][752]LogTexture:Display: Building textures: Texture2D_93 (BGRA8)
+[2015.08.01-23.18.24:856][752]LogTexture:Display: Building textures: Texture2D_93 (BGRA8)
+[2015.08.01-23.18.24:858][752]LogTexture:Display: Building textures: Texture2D_94 (BGRA8)
+[2015.08.01-23.18.24:860][752]LogTexture:Display: Building textures: Texture2D_94 (BGRA8)
+[2015.08.01-23.18.24:861][752]LogTexture:Display: Building textures: Texture2D_95 (BGRA8)
+[2015.08.01-23.18.24:863][752]LogTexture:Display: Building textures: Texture2D_95 (BGRA8)
+[2015.08.01-23.18.24:864][752]LogTexture:Display: Building textures: Texture2D_96 (BGRA8)
+[2015.08.01-23.18.24:867][752]LogTexture:Display: Building textures: Texture2D_96 (BGRA8)
+[2015.08.01-23.18.24:868][752]LogTexture:Display: Building textures: Texture2D_97 (BGRA8)
+[2015.08.01-23.18.24:870][752]LogTexture:Display: Building textures: Texture2D_97 (BGRA8)
+[2015.08.01-23.18.24:872][752]LogTexture:Display: Building textures: Texture2D_98 (BGRA8)
+[2015.08.01-23.18.24:875][752]LogTexture:Display: Building textures: Texture2D_98 (BGRA8)
+[2015.08.01-23.18.24:876][752]LogTexture:Display: Building textures: Texture2D_99 (BGRA8)
+[2015.08.01-23.18.24:878][752]LogTexture:Display: Building textures: Texture2D_99 (BGRA8)
+[2015.08.01-23.18.24:879][752]LogTexture:Display: Building textures: Texture2D_100 (BGRA8)
+[2015.08.01-23.18.24:891][752]LogTexture:Display: Building textures: Texture2D_100 (BGRA8)
+[2015.08.01-23.18.24:892][752]LogTexture:Display: Building textures: Texture2D_101 (BGRA8)
+[2015.08.01-23.18.24:895][752]LogTexture:Display: Building textures: Texture2D_101 (BGRA8)
+[2015.08.01-23.18.24:896][752]LogTexture:Display: Building textures: Texture2D_102 (BGRA8)
+[2015.08.01-23.18.24:898][752]LogTexture:Display: Building textures: Texture2D_102 (BGRA8)
+[2015.08.01-23.18.24:900][752]LogTexture:Display: Building textures: Texture2D_103 (BGRA8)
+[2015.08.01-23.18.24:902][752]LogTexture:Display: Building textures: Texture2D_103 (BGRA8)
+[2015.08.01-23.18.24:903][752]LogTexture:Display: Building textures: Texture2D_104 (BGRA8)
+[2015.08.01-23.18.24:906][752]LogTexture:Display: Building textures: Texture2D_104 (BGRA8)
+[2015.08.01-23.18.24:907][752]LogTexture:Display: Building textures: Texture2D_105 (BGRA8)
+[2015.08.01-23.18.24:909][752]LogTexture:Display: Building textures: Texture2D_105 (BGRA8)
+[2015.08.01-23.18.24:910][752]LogTexture:Display: Building textures: Texture2D_106 (BGRA8)
+[2015.08.01-23.18.24:913][752]LogTexture:Display: Building textures: Texture2D_106 (BGRA8)
+[2015.08.01-23.18.24:914][752]LogTexture:Display: Building textures: Texture2D_107 (BGRA8)
+[2015.08.01-23.18.24:916][752]LogTexture:Display: Building textures: Texture2D_107 (BGRA8)
+[2015.08.01-23.18.24:918][752]LogTexture:Display: Building textures: Texture2D_108 (BGRA8)
+[2015.08.01-23.18.24:920][752]LogTexture:Display: Building textures: Texture2D_108 (BGRA8)
+[2015.08.01-23.18.24:921][752]LogTexture:Display: Building textures: Texture2D_109 (BGRA8)
+[2015.08.01-23.18.24:923][752]LogTexture:Display: Building textures: Texture2D_109 (BGRA8)
+[2015.08.01-23.18.24:924][752]LogTexture:Display: Building textures: Texture2D_110 (BGRA8)
+[2015.08.01-23.18.24:927][752]LogTexture:Display: Building textures: Texture2D_110 (BGRA8)
+[2015.08.01-23.18.24:928][752]LogTexture:Display: Building textures: Texture2D_111 (BGRA8)
+[2015.08.01-23.18.24:930][752]LogTexture:Display: Building textures: Texture2D_111 (BGRA8)
+[2015.08.01-23.18.24:931][752]LogTexture:Display: Building textures: Texture2D_112 (BGRA8)
+[2015.08.01-23.18.24:936][752]LogTexture:Display: Building textures: Texture2D_112 (BGRA8)
+[2015.08.01-23.18.24:938][752]LogTexture:Display: Building textures: Texture2D_113 (BGRA8)
+[2015.08.01-23.18.24:943][752]LogTexture:Display: Building textures: Texture2D_113 (BGRA8)
+[2015.08.01-23.18.24:944][752]LogTexture:Display: Building textures: Texture2D_114 (BGRA8)
+[2015.08.01-23.18.24:947][752]LogTexture:Display: Building textures: Texture2D_114 (BGRA8)
+[2015.08.01-23.18.24:948][752]LogTexture:Display: Building textures: Texture2D_115 (BGRA8)
+[2015.08.01-23.18.24:953][752]LogTexture:Display: Building textures: Texture2D_115 (BGRA8)
+[2015.08.01-23.18.24:954][752]LogTexture:Display: Building textures: Texture2D_116 (BGRA8)
+[2015.08.01-23.18.24:957][752]LogTexture:Display: Building textures: Texture2D_116 (BGRA8)
+[2015.08.01-23.18.24:959][752]LogTexture:Display: Building textures: Texture2D_117 (BGRA8)
+[2015.08.01-23.18.24:961][752]LogTexture:Display: Building textures: Texture2D_117 (BGRA8)
+[2015.08.01-23.18.24:962][752]LogTexture:Display: Building textures: Texture2D_118 (BGRA8)
+[2015.08.01-23.18.24:965][752]LogTexture:Display: Building textures: Texture2D_118 (BGRA8)
+[2015.08.01-23.18.24:966][752]LogTexture:Display: Building textures: Texture2D_119 (BGRA8)
+[2015.08.01-23.18.24:968][752]LogTexture:Display: Building textures: Texture2D_119 (BGRA8)
+[2015.08.01-23.18.24:970][752]LogTexture:Display: Building textures: Texture2D_120 (BGRA8)
+[2015.08.01-23.18.24:975][752]LogTexture:Display: Building textures: Texture2D_120 (BGRA8)
+[2015.08.01-23.18.24:976][752]LogTexture:Display: Building textures: Texture2D_121 (BGRA8)
+[2015.08.01-23.18.24:980][752]LogTexture:Display: Building textures: Texture2D_121 (BGRA8)
+[2015.08.01-23.18.24:981][752]LogTexture:Display: Building textures: Texture2D_122 (BGRA8)
+[2015.08.01-23.18.24:984][752]LogTexture:Display: Building textures: Texture2D_122 (BGRA8)
+[2015.08.01-23.18.24:985][752]LogTexture:Display: Building textures: Texture2D_123 (BGRA8)
+[2015.08.01-23.18.24:987][752]LogTexture:Display: Building textures: Texture2D_123 (BGRA8)
+[2015.08.01-23.18.24:989][752]LogTexture:Display: Building textures: Texture2D_124 (BGRA8)
+[2015.08.01-23.18.24:991][752]LogTexture:Display: Building textures: Texture2D_124 (BGRA8)
+[2015.08.01-23.18.24:993][752]LogTexture:Display: Building textures: Texture2D_125 (BGRA8)
+[2015.08.01-23.18.24:996][752]LogTexture:Display: Building textures: Texture2D_125 (BGRA8)
+[2015.08.01-23.18.24:997][752]LogTexture:Display: Building textures: Texture2D_126 (BGRA8)
+[2015.08.01-23.18.25:002][752]LogTexture:Display: Building textures: Texture2D_126 (BGRA8)
+[2015.08.01-23.18.25:003][752]LogTexture:Display: Building textures: Texture2D_127 (BGRA8)
+[2015.08.01-23.18.25:011][752]LogTexture:Display: Building textures: Texture2D_127 (BGRA8)
+[2015.08.01-23.18.25:013][752]LogTexture:Display: Building textures: Texture2D_128 (BGRA8)
+[2015.08.01-23.18.25:017][752]LogTexture:Display: Building textures: Texture2D_128 (BGRA8)
+[2015.08.01-23.18.25:018][752]LogTexture:Display: Building textures: Texture2D_129 (BGRA8)
+[2015.08.01-23.18.25:020][752]LogTexture:Display: Building textures: Texture2D_129 (BGRA8)
+[2015.08.01-23.18.25:815][781]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.18.26:446][792]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.18.27:993][857]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.18.29:148][900]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:23384).
+[2015.08.01-23.18.29:189][902]LogContentStreaming: Texture pool size now 200 MB
+[2015.08.01-23.18.48:733][843]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.18.50:205][893]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.18.51:201][916]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.18.56:300][179]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.19.08:815][800]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.20.07:275][504]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.01-23.20.07:275][504]PIE: New page: PIE session: Noob_land_01 (Aug 2, 2015, 3:20:07 AM)
+[2015.08.01-23.20.07:276][504]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Noob_land_01
+[2015.08.01-23.20.07:296][504]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019716s)
+[2015.08.01-23.20.07:296][504]LogAIModule: Creating AISystem for world Noob_land_01
+[2015.08.01-23.20.07:297][504]LogPlayLevel: PIE: World Init took: (0.001787s)
+[2015.08.01-23.20.07:298][504]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Noob_land_01.Noob_land_01 to /Game/Maps/UEDPIE_0_Noob_land_01.Noob_land_01 (0.021735s)
+[2015.08.01-23.20.07:430][504]LogInit: XAudio2 using 'Main Line 1 (Virtual Audio Cable)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.01-23.20.07:436][504]LogInit: FAudioDevice initialized.
+[2015.08.01-23.20.07:485][504]LogWorld: Game class is 'GameMode'
+[2015.08.01-23.20.07:491][504]LogTexture:Display: Building textures: Texture2D_130 (BGRA8)
+[2015.08.01-23.20.07:495][504]LogTexture:Display: Building textures: Texture2D_130 (BGRA8)
+[2015.08.01-23.20.07:496][504]LogTexture:Display: Building textures: Texture2D_131 (BGRA8)
+[2015.08.01-23.20.07:498][504]LogTexture:Display: Building textures: Texture2D_131 (BGRA8)
+[2015.08.01-23.20.07:500][504]LogTexture:Display: Building textures: Texture2D_132 (BGRA8)
+[2015.08.01-23.20.07:503][504]LogTexture:Display: Building textures: Texture2D_132 (BGRA8)
+[2015.08.01-23.20.07:504][504]LogTexture:Display: Building textures: Texture2D_133 (BGRA8)
+[2015.08.01-23.20.07:507][504]LogTexture:Display: Building textures: Texture2D_133 (BGRA8)
+[2015.08.01-23.20.07:509][504]LogTexture:Display: Building textures: Texture2D_134 (BGRA8)
+[2015.08.01-23.20.07:512][504]LogTexture:Display: Building textures: Texture2D_134 (BGRA8)
+[2015.08.01-23.20.07:513][504]LogTexture:Display: Building textures: Texture2D_135 (BGRA8)
+[2015.08.01-23.20.07:516][504]LogTexture:Display: Building textures: Texture2D_135 (BGRA8)
+[2015.08.01-23.20.07:517][504]LogTexture:Display: Building textures: Texture2D_136 (BGRA8)
+[2015.08.01-23.20.07:519][504]LogTexture:Display: Building textures: Texture2D_136 (BGRA8)
+[2015.08.01-23.20.07:521][504]LogTexture:Display: Building textures: Texture2D_137 (BGRA8)
+[2015.08.01-23.20.07:523][504]LogTexture:Display: Building textures: Texture2D_137 (BGRA8)
+[2015.08.01-23.20.07:525][504]LogTexture:Display: Building textures: Texture2D_138 (BGRA8)
+[2015.08.01-23.20.07:528][504]LogTexture:Display: Building textures: Texture2D_138 (BGRA8)
+[2015.08.01-23.20.07:530][504]LogTexture:Display: Building textures: Texture2D_139 (BGRA8)
+[2015.08.01-23.20.07:532][504]LogTexture:Display: Building textures: Texture2D_139 (BGRA8)
+[2015.08.01-23.20.07:534][504]LogTexture:Display: Building textures: Texture2D_140 (BGRA8)
+[2015.08.01-23.20.07:536][504]LogTexture:Display: Building textures: Texture2D_140 (BGRA8)
+[2015.08.01-23.20.07:537][504]LogTexture:Display: Building textures: Texture2D_141 (BGRA8)
+[2015.08.01-23.20.07:539][504]LogTexture:Display: Building textures: Texture2D_141 (BGRA8)
+[2015.08.01-23.20.07:541][504]LogTexture:Display: Building textures: Texture2D_142 (BGRA8)
+[2015.08.01-23.20.07:542][504]LogTexture:Display: Building textures: Texture2D_142 (BGRA8)
+[2015.08.01-23.20.07:544][504]LogTexture:Display: Building textures: Texture2D_143 (BGRA8)
+[2015.08.01-23.20.07:546][504]LogTexture:Display: Building textures: Texture2D_143 (BGRA8)
+[2015.08.01-23.20.07:547][504]LogTexture:Display: Building textures: Texture2D_144 (BGRA8)
+[2015.08.01-23.20.07:549][504]LogTexture:Display: Building textures: Texture2D_144 (BGRA8)
+[2015.08.01-23.20.07:550][504]LogTexture:Display: Building textures: Texture2D_145 (BGRA8)
+[2015.08.01-23.20.07:551][504]LogTexture:Display: Building textures: Texture2D_145 (BGRA8)
+[2015.08.01-23.20.07:552][504]LogTexture:Display: Building textures: Texture2D_146 (BGRA8)
+[2015.08.01-23.20.07:554][504]LogTexture:Display: Building textures: Texture2D_146 (BGRA8)
+[2015.08.01-23.20.07:556][504]LogTexture:Display: Building textures: Texture2D_147 (BGRA8)
+[2015.08.01-23.20.07:558][504]LogTexture:Display: Building textures: Texture2D_147 (BGRA8)
+[2015.08.01-23.20.07:559][504]LogTexture:Display: Building textures: Texture2D_148 (BGRA8)
+[2015.08.01-23.20.07:561][504]LogTexture:Display: Building textures: Texture2D_148 (BGRA8)
+[2015.08.01-23.20.07:562][504]LogTexture:Display: Building textures: Texture2D_149 (BGRA8)
+[2015.08.01-23.20.07:564][504]LogTexture:Display: Building textures: Texture2D_149 (BGRA8)
+[2015.08.01-23.20.07:565][504]LogTexture:Display: Building textures: Texture2D_150 (BGRA8)
+[2015.08.01-23.20.07:567][504]LogTexture:Display: Building textures: Texture2D_150 (BGRA8)
+[2015.08.01-23.20.07:568][504]LogTexture:Display: Building textures: Texture2D_151 (BGRA8)
+[2015.08.01-23.20.07:570][504]LogTexture:Display: Building textures: Texture2D_151 (BGRA8)
+[2015.08.01-23.20.07:571][504]LogTexture:Display: Building textures: Texture2D_152 (BGRA8)
+[2015.08.01-23.20.07:573][504]LogTexture:Display: Building textures: Texture2D_152 (BGRA8)
+[2015.08.01-23.20.07:574][504]LogTexture:Display: Building textures: Texture2D_153 (BGRA8)
+[2015.08.01-23.20.07:576][504]LogTexture:Display: Building textures: Texture2D_153 (BGRA8)
+[2015.08.01-23.20.07:578][504]LogTexture:Display: Building textures: Texture2D_154 (BGRA8)
+[2015.08.01-23.20.07:580][504]LogTexture:Display: Building textures: Texture2D_154 (BGRA8)
+[2015.08.01-23.20.07:581][504]LogTexture:Display: Building textures: Texture2D_155 (BGRA8)
+[2015.08.01-23.20.07:583][504]LogTexture:Display: Building textures: Texture2D_155 (BGRA8)
+[2015.08.01-23.20.07:584][504]LogTexture:Display: Building textures: Texture2D_156 (BGRA8)
+[2015.08.01-23.20.07:586][504]LogTexture:Display: Building textures: Texture2D_156 (BGRA8)
+[2015.08.01-23.20.07:587][504]LogTexture:Display: Building textures: Texture2D_157 (BGRA8)
+[2015.08.01-23.20.07:589][504]LogTexture:Display: Building textures: Texture2D_157 (BGRA8)
+[2015.08.01-23.20.07:590][504]LogTexture:Display: Building textures: Texture2D_158 (BGRA8)
+[2015.08.01-23.20.07:592][504]LogTexture:Display: Building textures: Texture2D_158 (BGRA8)
+[2015.08.01-23.20.07:594][504]LogTexture:Display: Building textures: Texture2D_159 (BGRA8)
+[2015.08.01-23.20.07:597][504]LogTexture:Display: Building textures: Texture2D_159 (BGRA8)
+[2015.08.01-23.20.07:598][504]LogTexture:Display: Building textures: Texture2D_160 (BGRA8)
+[2015.08.01-23.20.07:602][504]LogTexture:Display: Building textures: Texture2D_160 (BGRA8)
+[2015.08.01-23.20.07:603][504]LogTexture:Display: Building textures: Texture2D_161 (BGRA8)
+[2015.08.01-23.20.07:607][504]LogTexture:Display: Building textures: Texture2D_161 (BGRA8)
+[2015.08.01-23.20.07:609][504]LogTexture:Display: Building textures: Texture2D_162 (BGRA8)
+[2015.08.01-23.20.07:612][504]LogTexture:Display: Building textures: Texture2D_162 (BGRA8)
+[2015.08.01-23.20.07:613][504]LogTexture:Display: Building textures: Texture2D_163 (BGRA8)
+[2015.08.01-23.20.07:615][504]LogTexture:Display: Building textures: Texture2D_163 (BGRA8)
+[2015.08.01-23.20.07:616][504]LogTexture:Display: Building textures: Texture2D_164 (BGRA8)
+[2015.08.01-23.20.07:618][504]LogTexture:Display: Building textures: Texture2D_164 (BGRA8)
+[2015.08.01-23.20.07:619][504]LogTexture:Display: Building textures: Texture2D_165 (BGRA8)
+[2015.08.01-23.20.07:621][504]LogTexture:Display: Building textures: Texture2D_165 (BGRA8)
+[2015.08.01-23.20.07:622][504]LogTexture:Display: Building textures: Texture2D_166 (BGRA8)
+[2015.08.01-23.20.07:624][504]LogTexture:Display: Building textures: Texture2D_166 (BGRA8)
+[2015.08.01-23.20.07:625][504]LogTexture:Display: Building textures: Texture2D_167 (BGRA8)
+[2015.08.01-23.20.07:627][504]LogTexture:Display: Building textures: Texture2D_167 (BGRA8)
+[2015.08.01-23.20.07:629][504]LogTexture:Display: Building textures: Texture2D_168 (BGRA8)
+[2015.08.01-23.20.07:632][504]LogTexture:Display: Building textures: Texture2D_168 (BGRA8)
+[2015.08.01-23.20.07:634][504]LogTexture:Display: Building textures: Texture2D_169 (BGRA8)
+[2015.08.01-23.20.07:636][504]LogTexture:Display: Building textures: Texture2D_169 (BGRA8)
+[2015.08.01-23.20.07:638][504]LogTexture:Display: Building textures: Texture2D_170 (BGRA8)
+[2015.08.01-23.20.07:640][504]LogTexture:Display: Building textures: Texture2D_170 (BGRA8)
+[2015.08.01-23.20.07:642][504]LogTexture:Display: Building textures: Texture2D_171 (BGRA8)
+[2015.08.01-23.20.07:645][504]LogTexture:Display: Building textures: Texture2D_171 (BGRA8)
+[2015.08.01-23.20.07:646][504]LogTexture:Display: Building textures: Texture2D_172 (BGRA8)
+[2015.08.01-23.20.07:648][504]LogTexture:Display: Building textures: Texture2D_172 (BGRA8)
+[2015.08.01-23.20.07:650][504]LogTexture:Display: Building textures: Texture2D_173 (BGRA8)
+[2015.08.01-23.20.07:652][504]LogTexture:Display: Building textures: Texture2D_173 (BGRA8)
+[2015.08.01-23.20.07:653][504]LogTexture:Display: Building textures: Texture2D_174 (BGRA8)
+[2015.08.01-23.20.07:656][504]LogTexture:Display: Building textures: Texture2D_174 (BGRA8)
+[2015.08.01-23.20.07:657][504]LogTexture:Display: Building textures: Texture2D_175 (BGRA8)
+[2015.08.01-23.20.07:659][504]LogTexture:Display: Building textures: Texture2D_175 (BGRA8)
+[2015.08.01-23.20.07:661][504]LogTexture:Display: Building textures: Texture2D_176 (BGRA8)
+[2015.08.01-23.20.07:663][504]LogTexture:Display: Building textures: Texture2D_176 (BGRA8)
+[2015.08.01-23.20.07:665][504]LogTexture:Display: Building textures: Texture2D_177 (BGRA8)
+[2015.08.01-23.20.07:668][504]LogTexture:Display: Building textures: Texture2D_177 (BGRA8)
+[2015.08.01-23.20.07:669][504]LogTexture:Display: Building textures: Texture2D_178 (BGRA8)
+[2015.08.01-23.20.07:672][504]LogTexture:Display: Building textures: Texture2D_178 (BGRA8)
+[2015.08.01-23.20.07:674][504]LogTexture:Display: Building textures: Texture2D_179 (BGRA8)
+[2015.08.01-23.20.07:676][504]LogTexture:Display: Building textures: Texture2D_179 (BGRA8)
+[2015.08.01-23.20.07:678][504]LogTexture:Display: Building textures: Texture2D_180 (BGRA8)
+[2015.08.01-23.20.07:680][504]LogTexture:Display: Building textures: Texture2D_180 (BGRA8)
+[2015.08.01-23.20.07:682][504]LogTexture:Display: Building textures: Texture2D_181 (BGRA8)
+[2015.08.01-23.20.07:684][504]LogTexture:Display: Building textures: Texture2D_181 (BGRA8)
+[2015.08.01-23.20.07:685][504]LogTexture:Display: Building textures: Texture2D_182 (BGRA8)
+[2015.08.01-23.20.07:687][504]LogTexture:Display: Building textures: Texture2D_182 (BGRA8)
+[2015.08.01-23.20.07:689][504]LogTexture:Display: Building textures: Texture2D_183 (BGRA8)
+[2015.08.01-23.20.07:690][504]LogTexture:Display: Building textures: Texture2D_183 (BGRA8)
+[2015.08.01-23.20.07:691][504]LogTexture:Display: Building textures: Texture2D_184 (BGRA8)
+[2015.08.01-23.20.07:693][504]LogTexture:Display: Building textures: Texture2D_184 (BGRA8)
+[2015.08.01-23.20.07:694][504]LogTexture:Display: Building textures: Texture2D_185 (BGRA8)
+[2015.08.01-23.20.07:696][504]LogTexture:Display: Building textures: Texture2D_185 (BGRA8)
+[2015.08.01-23.20.07:697][504]LogTexture:Display: Building textures: Texture2D_186 (BGRA8)
+[2015.08.01-23.20.07:699][504]LogTexture:Display: Building textures: Texture2D_186 (BGRA8)
+[2015.08.01-23.20.07:700][504]LogTexture:Display: Building textures: Texture2D_187 (BGRA8)
+[2015.08.01-23.20.07:702][504]LogTexture:Display: Building textures: Texture2D_187 (BGRA8)
+[2015.08.01-23.20.07:703][504]LogTexture:Display: Building textures: Texture2D_188 (BGRA8)
+[2015.08.01-23.20.07:705][504]LogTexture:Display: Building textures: Texture2D_188 (BGRA8)
+[2015.08.01-23.20.07:706][504]LogTexture:Display: Building textures: Texture2D_189 (BGRA8)
+[2015.08.01-23.20.07:708][504]LogTexture:Display: Building textures: Texture2D_189 (BGRA8)
+[2015.08.01-23.20.07:709][504]LogTexture:Display: Building textures: Texture2D_190 (BGRA8)
+[2015.08.01-23.20.07:711][504]LogTexture:Display: Building textures: Texture2D_190 (BGRA8)
+[2015.08.01-23.20.07:712][504]LogTexture:Display: Building textures: Texture2D_191 (BGRA8)
+[2015.08.01-23.20.07:714][504]LogTexture:Display: Building textures: Texture2D_191 (BGRA8)
+[2015.08.01-23.20.07:715][504]LogTexture:Display: Building textures: Texture2D_192 (BGRA8)
+[2015.08.01-23.20.07:717][504]LogTexture:Display: Building textures: Texture2D_192 (BGRA8)
+[2015.08.01-23.20.07:718][504]LogTexture:Display: Building textures: Texture2D_193 (BGRA8)
+[2015.08.01-23.20.07:720][504]LogTexture:Display: Building textures: Texture2D_193 (BGRA8)
+[2015.08.01-23.20.07:729][504]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Noob_land_01.Noob_land_01 up for play (max tick rate 0) at 2015.08.02-01.20.07
+[2015.08.01-23.20.07:729][504]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Noob_land_01.Noob_land_01:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.01-23.20.07:730][504]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Noob_land_01.Noob_land_01:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.01-23.20.07:731][504]LogWorld: Bringing up level for play took: 0.241888
+[2015.08.01-23.20.07:734][504]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Noob_land_01 0.751
+[2015.08.01-23.20.28:288][313]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000030E8EAC0
+[2015.08.01-23.20.55:250][634]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.08.01-23.21.04:296][326]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.21.04:866][351]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.21.05:401][363]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.21.14:964][ 15]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.21.15:354][ 15]LogMaterial: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
+[2015.08.01-23.21.15:354][ 15]LogMaterial:Warning: Failed to compile Material /Engine/EngineDebugMaterials/MAT_LevelColorationLitLightmapUV.MAT_LevelColorationLitLightmapUV for platform PCD3D_ES2, Default Material will be used in game.
+[2015.08.01-23.21.15:354][ 15]LogMaterial:Warning: 	(Node LightmapUVs) Node not supported in feature level ES2
+[2015.08.01-23.21.15:465][ 15]LogMaterial: Missing cached shader map for material PreviewShadowIndicatorMaterial, compiling. 
+[2015.08.01-23.21.15:465][ 15]LogMaterial:Warning: Failed to compile Material /Engine/EditorMaterials/PreviewShadowIndicatorMaterial.PreviewShadowIndicatorMaterial for platform PCD3D_ES2, Default Material will be used in game.
+[2015.08.01-23.21.15:465][ 15]LogMaterial:Warning: 	(Node TextureSample) Node not supported in feature level ES2
+[2015.08.01-23.21.15:511][ 15]LogMaterial: Missing cached shader map for material LevelGridMaterial, compiling. 
+[2015.08.01-23.21.15:514][ 15]LogMaterial:Warning: Failed to compile Material /Engine/EditorMaterials/LevelGridMaterial.LevelGridMaterial for platform PCD3D_ES2, Default Material will be used in game.
+[2015.08.01-23.21.15:514][ 15]LogMaterial:Warning: 	Function TilingAAGrid: (Node DDX) Node not supported in feature level ES2
+[2015.08.01-23.21.15:514][ 15]LogMaterial:Warning: 	Function TilingAAGrid: (Node DDY) Node not supported in feature level ES2
+[2015.08.01-23.21.15:514][ 15]LogMaterial:Warning: 	Function TilingAAGrid: (Node If) If input A must be of type float.
+[2015.08.01-23.21.15:514][ 15]LogMaterial:Warning: 	Function Blend_Screen: (Node DDX) Node not supported in feature level ES2
+[2015.08.01-23.21.15:514][ 15]LogMaterial:Warning: 	Function Blend_Screen: (Node DDY) Node not supported in feature level ES2
+[2015.08.01-23.21.15:514][ 15]LogMaterial:Warning: 	Function Blend_Screen: (Node If) If input A must be of type float.
+[2015.08.01-23.21.15:514][ 15]LogMaterial:Warning: 	Function CompositeARGBLayer: (Node DDX) Node not supported in feature level ES2
+[2015.08.01-23.21.15:514][ 15]LogMaterial:Warning: 	Function CompositeARGBLayer: (Node DDY) Node not supported in feature level ES2
+[2015.08.01-23.21.15:514][ 15]LogMaterial:Warning: 	Function CompositeARGBLayer: (Node If) If input A must be of type float.
+[2015.08.01-23.21.15:646][ 15]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000032223EC0
+[2015.08.01-23.21.16:280][ 15]LogShaderCompilers:Warning: 		[Searching for changed files] took [0.2028] s
+[2015.08.01-23.21.16:280][ 15]LogShaderCompilers:Warning: No Shader changes found.
+[2015.08.01-23.23.12:762][ 14]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.23.21:767][ 41]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.23.22:065][ 41]LogSavePackage: Save=95.094528ms
+[2015.08.01-23.23.22:065][ 41]LogSavePackage: Moving '../../../../../../Users/Tokala/Documents/Unreal Projects/Game/Saved/Noob_land_01_Auto1292E75B04BD76942E484EAA25E8E8DEA.tmp' to '../../../../../../Users/Tokala/Documents/Unreal Projects/Game/Saved/Autosaves/Game/Maps/Noob_land_01_Auto1.umap'
+[2015.08.01-23.23.22:068][ 41]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Noob_land_01' took 0.140
+[2015.08.01-23.23.22:068][ 41]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.140
+[2015.08.01-23.23.22:072][ 41]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/street_decor/HailHydrant] ([1] browsable assets)...
+[2015.08.01-23.23.22:090][ 41]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/street_decor/HailHydrant.HailHydrant]
+[2015.08.01-23.23.22:090][ 41]OBJ SavePackage: Finished generating thumbnails for package [/Game/street_decor/HailHydrant]
+[2015.08.01-23.23.22:108][ 41]LogSavePackage: Save=13.000250ms
+[2015.08.01-23.23.22:108][ 41]LogSavePackage: Moving '../../../../../../Users/Tokala/Documents/Unreal Projects/Game/Saved/HailHydrant_Auto161F29F23403772935A4DF6BFB9F37494.tmp' to '../../../../../../Users/Tokala/Documents/Unreal Projects/Game/Saved/Autosaves/Game/street_decor/HailHydrant_Auto1.uasset'
+[2015.08.01-23.23.22:109][ 41]LogFileHelpers: Auto-saving content packages took 0.040
+[2015.08.01-23.28.24:563][183]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.28.26:275][183]LogD3D11RHI: InitD3DDevice
+[2015.08.01-23.28.26:372][183]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Noob_land_01" FILE="../../../../../../Users/Tokala/Documents/Unreal Projects/Game/Content/Maps/Noob_land_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.01-23.28.26:511][183]LogSavePackage: Save=98.284523ms
+[2015.08.01-23.28.26:511][183]LogSavePackage: Moving '../../../../../../Users/Tokala/Documents/Unreal Projects/Game/Saved/Noob_land_01ECA5ACDF45410B408E6301B23E36D060.tmp' to '../../../../../../Users/Tokala/Documents/Unreal Projects/Game/Content/Maps/Noob_land_01.umap'
+[2015.08.01-23.28.26:554][183]LogFileHelpers: Saving map 'Noob_land_01' took 0.238
+[2015.08.01-23.28.26:558][183]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/street_decor/HailHydrant" FILE="../../../../../../Users/Tokala/Documents/Unreal Projects/Game/Content/street_decor/HailHydrant.uasset" SILENT=true
+[2015.08.01-23.28.26:565][183]LogSavePackage: Save=2.572909ms
+[2015.08.01-23.28.26:565][183]LogSavePackage: Moving '../../../../../../Users/Tokala/Documents/Unreal Projects/Game/Saved/HailHydrant1D04E63241E41F745B95B2BD68493B33.tmp' to '../../../../../../Users/Tokala/Documents/Unreal Projects/Game/Content/street_decor/HailHydrant.uasset'
+[2015.08.01-23.28.27:009][184]Cmd: QUIT_EDITOR
+[2015.08.01-23.28.27:390][184]LogExit: Preparing to exit.
+[2015.08.01-23.28.28:303][184]LogExit: Editor shut down
+[2015.08.01-23.28.28:303][184]LogExit: Transaction tracking system shut down
+[2015.08.01-23.28.28:304][184]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000031874360
+[2015.08.01-23.28.28:305][184]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A4A8B80
+[2015.08.01-23.28.28:305][184]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E71F920
+[2015.08.01-23.28.28:474][184]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010025E40
+[2015.08.01-23.28.28:474][184]LogExit: Object subsystem successfully closed.
+[2015.08.01-23.28.28:496][184]LogD3D11RHI: Shutdown
+[2015.08.01-23.28.28:496][184]LogD3D11RHI: CleanupD3DDevice
+[2015.08.01-23.28.28:569][184]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.08.01-23.28.28:591][184]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.08.01-23.28.28:591][184]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.08.01-23.28.28:591][184]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.08.01-23.28.28:591][184]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.08.01-23.28.28:591][184]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.08.01-23.28.28:592][184]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.08.01-23.28.28:592][184]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.08.01-23.28.28:592][184]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.08.01-23.28.28:592][184]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.08.01-23.28.28:592][184]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.08.01-23.28.28:592][184]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.08.01-23.28.28:592][184]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.08.01-23.28.28:592][184]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.08.01-23.28.28:592][184]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.08.01-23.28.28:593][184]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.08.01-23.28.28:593][184]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.08.01-23.28.28:593][184]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.08.01-23.28.28:593][184]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.08.01-23.28.28:593][184]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.08.01-23.28.28:593][184]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.08.01-23.28.28:593][184]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.08.01-23.28.28:593][184]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.08.01-23.28.28:593][184]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.08.01-23.28.28:593][184]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.08.01-23.28.28:593][184]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.08.01-23.28.28:593][184]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.08.01-23.28.28:974][184]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.08.01-23.28.28:974][184]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.08.01-23.28.28:974][184]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.08.01-23.28.28:974][184]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.08.01-23.28.28:974][184]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.08.01-23.28.28:974][184]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.08.01-23.28.28:974][184]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.08.01-23.28.28:974][184]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.08.01-23.28.28:974][184]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.08.01-23.28.28:974][184]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.08.01-23.28.28:974][184]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.08.01-23.28.28:974][184]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.08.01-23.28.28:974][184]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.08.01-23.28.28:974][184]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.08.01-23.28.28:974][184]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.08.01-23.28.28:974][184]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.08.01-23.28.28:974][184]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.08.01-23.28.28:974][184]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.08.01-23.28.28:974][184]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.08.01-23.28.28:974][184]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.08.01-23.28.28:974][184]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.08.01-23.28.28:974][184]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.08.01-23.28.28:974][184]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.08.01-23.28.28:974][184]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.08.01-23.28.28:974][184]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.08.01-23.28.28:974][184]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.08.01-23.28.28:974][184]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.08.01-23.28.28:974][184]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.08.01-23.28.28:974][184]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.08.01-23.28.28:974][184]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.08.01-23.28.28:975][184]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.08.01-23.28.28:975][184]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.08.01-23.28.29:024][184]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.08.01-23.28.29:024][184]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.08.01-23.28.29:024][184]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.08.01-23.28.29:024][184]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.08.01-23.28.29:024][184]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.08.01-23.28.29:024][184]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.08.01-23.28.29:025][184]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.08.01-23.28.29:025][184]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.08.01-23.28.29:025][184]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.08.01-23.28.29:025][184]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.08.01-23.28.29:025][184]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.08.01-23.28.29:025][184]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.08.01-23.28.29:025][184]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.08.01-23.28.29:025][184]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.08.01-23.28.29:025][184]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.08.01-23.28.29:025][184]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.08.01-23.28.29:025][184]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.08.01-23.28.29:025][184]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.08.01-23.28.29:214][184]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.08.01-23.28.29:214][184]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.08.01-23.28.29:214][184]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.08.01-23.28.29:214][184]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.08.01-23.28.29:214][184]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.08.01-23.28.29:214][184]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.08.01-23.28.29:214][184]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.08.01-23.28.29:247][184]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.08.01-23.28.29:247][184]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.08.01-23.28.29:247][184]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.08.01-23.28.29:247][184]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.08.01-23.28.29:247][184]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.08.01-23.28.29:247][184]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.08.01-23.28.29:247][184]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.08.01-23.28.29:247][184]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.08.01-23.28.29:247][184]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.08.01-23.28.29:247][184]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.08.01-23.28.29:247][184]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.08.01-23.28.29:247][184]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.08.01-23.28.29:247][184]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.08.01-23.28.29:247][184]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.08.01-23.28.29:247][184]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.08.01-23.28.29:247][184]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.08.01-23.28.29:247][184]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.08.01-23.28.29:247][184]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.08.01-23.28.29:247][184]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.08.01-23.28.29:247][184]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.08.01-23.28.29:248][184]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.08.01-23.28.29:248][184]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.08.01-23.28.29:248][184]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.08.01-23.28.29:249][184]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.08.01-23.28.29:250][184]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.08.01-23.28.29:250][184]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.08.01-23.28.29:350][184]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.08.01-23.28.29:350][184]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.08.01-23.28.29:359][184]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.08.01-23.28.29:359][184]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.08.01-23.28.29:359][184]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.08.01-23.28.29:359][184]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.08.01-23.28.29:359][184]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.08.01-23.28.29:359][184]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.08.01-23.28.29:359][184]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.08.01-23.28.29:359][184]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.08.01-23.28.29:359][184]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.08.01-23.28.29:359][184]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.08.01-23.28.29:359][184]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.08.01-23.28.29:359][184]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.08.01-23.28.29:359][184]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.08.01-23.28.29:359][184]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.08.01-23.28.29:359][184]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.08.01-23.28.29:362][184]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.08.01-23.28.29:362][184]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.08.01-23.28.29:362][184]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.08.01-23.28.29:362][184]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.08.01-23.28.29:362][184]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.08.01-23.28.29:362][184]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.08.01-23.28.29:362][184]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.08.01-23.28.29:362][184]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.08.01-23.28.29:362][184]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.08.01-23.28.29:362][184]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.08.01-23.28.29:414][184]LogDerivedDataCache: Shutdown
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.08.01-23.28.29:414][184]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.08.01-23.28.29:415][184]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.08.01-23.28.29:415][184]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.08.01-23.28.29:415][184]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.08.01-23.28.29:415][184]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.08.01-23.28.29:415][184]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.08.01-23.28.29:415][184]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.08.01-23.28.29:419][184]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.08.01-23.28.29:420][184]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.08.01-23.28.29:420][184]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.08.01-23.28.29:420][184]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.08.01-23.28.29:420][184]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.08.01-23.28.29:420][184]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.08.01-23.28.29:420][184]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.08.01-23.28.29:420][184]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.08.01-23.28.29:420][184]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.08.01-23.28.29:420][184]LogExit: Exiting.
+[2015.08.01-23.28.29:423][184]Log file closed, 08/02/15 01:28:29
